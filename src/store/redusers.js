@@ -1,7 +1,7 @@
 export const SEARCH_BAR_VALUE_OUT = 'SEARCH_BAR_VALUE_OUT';
 
 export const initialState = {
-    searchBarValue: "Привет"
+    searchBarValue: ""
 }
 
 export const reducerSearchBarComponent = (state = initialState, action) => {
